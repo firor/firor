@@ -9,5 +9,5 @@ echo
 # 👉 Comando $argv Executado! Resultado abaixo 👇 #
 ##################################################\n\n";
 
-echo exec($argv)."\n\n";
+echo shell_exec($argv)."\n\n";
 ?>
